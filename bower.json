@@ -1,5 +1,5 @@
 {
-  "name": "angular-d8",
+  "name": "d8client",
   "version": "0.0.0",
   "dependencies": {
     "angular": "^1.3.0",
@@ -15,5 +15,5 @@
     "angular-mocks": "^1.3.0"
   },
   "appPath": "app",
-  "moduleName": "angularD8App"
+  "moduleName": "d8clientApp"
 }

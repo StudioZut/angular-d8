@@ -1,0 +1,16 @@
+'use strict';
+
+/**
+ * @ngdoc function
+ * @name d8clientApp.controller:NodeCtrl
+ * @description
+ * # NodeCtrl
+ * Controller of the d8clientApp
+ */
+angular.module('d8clientApp')
+  .controller('NodeCtrl', ['$scope', '$routeParams', function ($scope, $routeParams) {
+
+    var nid = $routeParams.nid;
+    console.log('nid', nid);
+
+  }]);

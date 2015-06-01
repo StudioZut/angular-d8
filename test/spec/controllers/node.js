@@ -1,17 +1,17 @@
 'use strict';
 
-describe('Controller: AboutCtrl', function () {
+describe('Controller: NodeCtrl', function () {
 
   // load the controller's module
   beforeEach(module('d8clientApp'));
 
-  var AboutCtrl,
+  var NodeCtrl,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    AboutCtrl = $controller('AboutCtrl', {
+    NodeCtrl = $controller('NodeCtrl', {
       $scope: scope
     });
   }));

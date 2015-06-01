@@ -3,7 +3,7 @@
 describe('Controller: MainCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('angularD8App'));
+  beforeEach(module('d8clientApp'));
 
   var MainCtrl,
     scope;

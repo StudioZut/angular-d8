@@ -17,11 +17,7 @@ angular
     'ngSanitize',
     'ngTouch'
   ])
-
-.config(['$routeProvider', '$httpProvider', function ($routeProvider, $httpProvider) {
-
-$httpProvider.defaults.headers.common.Accept = 'application/hal+json';
-
+  .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -38,5 +34,4 @@ $httpProvider.defaults.headers.common.Accept = 'application/hal+json';
       .otherwise({
         redirectTo: '/'
       });
-  }]);
-
+  });

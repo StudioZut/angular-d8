@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name angularD8App.controller:AboutCtrl
+ * @name d8clientApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the angularD8App
+ * Controller of the d8clientApp
  */
-angular.module('angularD8App')
+angular.module('d8clientApp')
   .controller('AboutCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
