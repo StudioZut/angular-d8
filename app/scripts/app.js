@@ -10,8 +10,12 @@
  */
 angular
   .module('angularD8App', [
+    'ngAnimate',
     'ngCookies',
-    'ngRoute'
+    'ngResource',
+    'ngRoute',
+    'ngSanitize',
+    'ngTouch'
   ])
   .config(function ($routeProvider) {
     $routeProvider
